@@ -34,7 +34,7 @@ describe('build output', () => {
       'utf8',
     );
 
-    expect(esEntry).toMatch(/^['\"]use client['\"];?$/m);
-    expect(libEntry).toMatch(/^['\"]use client['\"];?$/m);
+    expect(esEntry).toMatch(/^['"]use client['"];?$/m);
+    expect(libEntry).toMatch(/^['"]use client['"];?$/m);
   });
 });
